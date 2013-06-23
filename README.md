@@ -10,6 +10,7 @@ AgentSystem Homeworks
 
 ## QtAtlas
 
+- atlasのGUIです
 - qtpy4が必要です
     # terminal 1
     roslaunch atlas_utils atlas_sandia_hands.launch
@@ -20,6 +21,7 @@ AgentSystem Homeworks
     
 # Homework 6,7
 
+- 顔の方向に腕を向けるプログラムです
     # terminal 1
     roslaunch roseus_tutorials usb-camera.launch 
     # terminal 2
