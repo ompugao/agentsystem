@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QtAtlas</class>
+ <widget class="QMainWindow" name="QtAtlas">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>590</width>
+    <height>344</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="forward_button">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>40</y>
+      <width>200</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Forward</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="backward_button">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>240</y>
+      <width>200</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Backward</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="left_button">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>140</y>
+      <width>200</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Left</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="right_button">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>140</y>
+      <width>200</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Right</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>QtAtlas Interface</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>260</y>
+      <width>161</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Reset to Stinding Pose</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>left_button</sender>
+   <signal>pressed()</signal>
+   <receiver>QtAtlas</receiver>
+   <slot>left_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>120</x>
+     <y>139</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>60</x>
+     <y>68</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>right_button</sender>
+   <signal>pressed()</signal>
+   <receiver>QtAtlas</receiver>
+   <slot>right_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>348</x>
+     <y>195</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>366</x>
+     <y>58</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_button</sender>
+   <signal>pressed()</signal>
+   <receiver>QtAtlas</receiver>
+   <slot>forward_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>273</x>
+     <y>84</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>337</x>
+     <y>31</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>backward_button</sender>
+   <signal>pressed()</signal>
+   <receiver>QtAtlas</receiver>
+   <slot>backward_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>209</x>
+     <y>234</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>347</x>
+     <y>257</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>QtAtlas</receiver>
+   <slot>reset_to_standing()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>542</x>
+     <y>285</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>537</x>
+     <y>237</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>left_pressed()</slot>
+  <slot>right_pressed()</slot>
+  <slot>forward_pressed()</slot>
+  <slot>backward_pressed()</slot>
+  <slot>reset_to_standing()</slot>
+ </slots>
+</ui>
