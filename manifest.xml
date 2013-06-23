@@ -8,6 +8,11 @@
   <license>BSD</license>
   <review status="unreviewed" notes=""/>
   <url>http://ros.org/wiki/agentsystem</url>
+  <depend 'actionlib'/>
+  <depend 'rospy'/>
+  <depend 'roseus'/>
+  <depend 'pr2eus'/>
+  <depend 'pr2_controller_msgs'/>
 
 </package>
 

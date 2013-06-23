@@ -3,10 +3,14 @@ AgentSytem
 
 AgentSystem Homeworks
 
+# Homework 3,4
+- atlasが上がらない
+
 # Homework 5
 
 ## QtAtlas
 
+- qtpy4が必要です
     # terminal 1
     roslaunch atlas_utils atlas_sandia_hands.launch
     # terminal 2
