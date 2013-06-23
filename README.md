@@ -12,5 +12,5 @@ AgentSystem Homeworks
     # terminal 2
     rosrun atlas_msgs action_server
     # terminal 3
-    python qtatlas.py
+    python scripts/qtatlas.py
     
