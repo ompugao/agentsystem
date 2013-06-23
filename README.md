@@ -14,3 +14,13 @@ AgentSystem Homeworks
     # terminal 3
     python scripts/qtatlas.py
     
+# Homework 6,7
+
+    # terminal 1
+    roslaunch roseus_tutorials usb-camera.launch 
+    # terminal 2
+    roslaunch roseus_tutorials image-view.launch 
+    # terminal 3
+    roslaunch roseus_tutorials face-detector-mono.launch 
+    # terminal 4
+    roseus euslisp/pr2_reach_arm_to_face.l
