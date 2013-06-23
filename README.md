@@ -1,9 +1,12 @@
-agentsytem
+AgentSytem
 ==========
 
-agentsystem homeworks
+AgentSystem Homeworks
 
-# QtAtlas
+# Homework 4
+
+## QtAtlas
+
     # terminal 1
     roslaunch atlas_utils atlas_sandia_hands.launch
     # terminal 2
